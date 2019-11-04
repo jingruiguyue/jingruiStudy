@@ -9,3 +9,5 @@ target/
 bin/
 /*.iml
 out/production/studytest/com/test/study/java8/
+
+ .idea/ workspace.xml
