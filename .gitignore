@@ -7,5 +7,5 @@ target/
 .classpath
 .DS_Store
 bin/
-
+/*.iml
 out/production/studytest/com/test/study/java8/
