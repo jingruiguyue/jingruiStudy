@@ -2,7 +2,7 @@
 *.class
 target/
 .settings/
-.idea/*
+.idea/
 .project
 .classpath
 .DS_Store
