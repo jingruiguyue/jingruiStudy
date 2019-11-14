@@ -1,7 +1,6 @@
 package com.test.study.arithmetic;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 /**
  * @PACKAGE_NAME: com.test.study.arithmetic
@@ -77,16 +76,95 @@ public class GroupInfo {
         return list;
     }
 
-    public static void main(String[] args) {
+    /**
+     * 过滤同时包含三个号码的结果集，参数如果是小于10的字符串，则需要在数字钱加0；形如：“02”
+     * @param one
+     * @param two
+     * @param three
+     * @return
+     */
+    public static List<String> filterThreeNumber(String one,String two,String three){
+        List<String> resList = new ArrayList<>();
         List<String> list = getGroupInfo();
-        //我想要包含的号码的组合是： 4 9 25
-        list = inputOneNumberResult(20,list);
-        list = inputOneNumberResult(12,list);
-        list = inputOneNumberResult(29,list);
-        for (int i=0;i<list.size();i++) {
-            String str=list.get(i);
-            System.out.println("输出结果："+str);
+        for (String str : list) {
+            if(str.contains(one) && str.contains(two) && str.contains(three)){
+                continue;
+            }
+            resList.add(str);
         }
-        System.out.println("总记录数："+list.size());
+
+        return resList;
+    }
+
+    /**
+     * 快捷的遍历：itar；iter;
+     *  用双色球的开奖结果进行相加，将结果去重以后输出，作为大乐透的推荐号码
+     * @param resultArray
+     * @return
+     */
+    public static String countPlusRecommend(int[] resultArray){
+        StringBuilder builder = new StringBuilder();
+        Set<Integer> set = new HashSet<>();
+        for (int i = 0; i < resultArray.length; i++) {
+            int i1 = resultArray[i];
+            for (int j = i+1; j < resultArray.length; j++) {
+                int temp = resultArray[i] + resultArray[j];
+                if(temp > 35){
+                    temp = temp-35;
+                }
+                set.add(temp);
+                if(temp >= 10){
+                    builder.append(" "+temp);
+                }else{
+                    builder.append(" 0"+temp);
+                }
+            }
+        }
+        List<Integer> list = new ArrayList<>(set);
+        Collections.sort(list);
+        System.out.println("方法结果："+list);
+
+        return builder.toString();
+    }
+
+    /**
+     * 用双色球的开奖结果进行相减，将结果去重以后输出，作为大乐透的推荐号码
+     * @param resultArray
+     * @return
+     */
+    public static String countMinusRecommend(int[] resultArray){
+        Set<Integer> set = new HashSet<>();
+        for (int i = resultArray.length-1; i > 0; i--) {
+            int i1 = resultArray[i];
+            for (int j = i-1; j >= 0; j--) {
+                int temp = resultArray[i] - resultArray[j];
+                set.add(temp);
+            }
+        }
+        List<Integer> list = new ArrayList<>(set);
+        Collections.sort(list);
+        System.out.println("方法结果："+list);
+
+        return list.toString();
+    }
+
+    public static void main(String[] args) {
+        //计算推荐
+        int[] tempArray = new int[]{1,7,9,11,24,32};
+        System.out.println("看看结果："+countMinusRecommend(tempArray));
+
+//        List<String> list = getGroupInfo();
+//        //我想要包含的号码的组合是： 4 9 25
+//        list = inputOneNumberResult(20,list);
+//        list = inputOneNumberResult(12,list);
+//        list = inputOneNumberResult(29,list);
+//        list = inputOneNumberResult(26,list);
+//        list = inputOneNumberResult(27,list);
+//        for (int i=0;i<list.size();i++) {
+//            String str=list.get(i);
+//            System.out.println("输出结果："+str);
+//        }
+//        System.out.println("原始总记录数："+getGroupInfo().size());
+//        System.out.println("过滤后记录数："+list.size());
     }
 }
