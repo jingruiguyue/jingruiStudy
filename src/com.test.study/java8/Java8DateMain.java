@@ -61,7 +61,7 @@ public class Java8DateMain {
         System.out.println(leetTime);
 
         LocalDate today = LocalDate.now();
-        LocalDate tomorrow = today.plus(1, ChronoUnit.DAYS);
+        LocalDate tomorrow = today.plusDays(1);
         LocalDate yesterday = tomorrow.minusDays(2);
 
         LocalDate independenceDay = LocalDate.of(2014, Month.JULY, 4);

@@ -1,6 +1,7 @@
 package com.test.study.main.test;
 
 import java.math.BigDecimal;
+import java.math.RoundingMode;
 
 /**
  * @PACKAGE_NAME: com.test.study.main.test
@@ -26,7 +27,7 @@ public class StringReplace {
         System.out.println("字符_的："+aaa);
         int bbb = '.';
         System.out.println("字符.的："+bbb);
-        System.out.println("打印结果是："+tempBuilder.toString());
+        System.out.println("打印结果是："+ tempBuilder);
         int tempSecond = 88;
         int oldSecond = tempSecond;
         System.out.println("oldSecond="+oldSecond);
@@ -34,7 +35,7 @@ public class StringReplace {
         double dou = 60.0;
         System.out.println("tempSecond="+tempSecond);
         BigDecimal ddd = new BigDecimal("88");
-        BigDecimal edaf = ddd.divide(BigDecimal.valueOf(60), 2, BigDecimal.ROUND_HALF_UP);
+        BigDecimal edaf = ddd.divide(BigDecimal.valueOf(60), 2, RoundingMode.HALF_UP);
         BigDecimal dig = new BigDecimal(oldSecond*(1/dou));
         System.out.println("超长广告系数："+edaf);
 

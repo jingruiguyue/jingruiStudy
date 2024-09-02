@@ -19,8 +19,8 @@ public class TestDate {
 //        System.out.println("第五个元素："+list.get(5));
         StringBuilder bui = new StringBuilder();
         bui.append("aaaa");
-        System.out.println("结果："+bui.toString());
+        System.out.println("结果："+ bui);
         bui.append("bbb");
-        System.out.println("结果："+bui.toString());
+        System.out.println("结果："+ bui);
     }
 }

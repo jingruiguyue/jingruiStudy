@@ -9,12 +9,12 @@ public class StringbuildTest {
         bu.append("abd");
         bu.append("sdwd");
         System.out.println(bu);
-        System.out.println("buffer"+bu.toString());
+        System.out.println("buffer"+ bu);
 
         StringBuilder builder = new StringBuilder();
         builder.append("abc");
         builder.append("welsdf");
         System.out.println(builder);
-        System.out.println("build"+builder.toString());
+        System.out.println("build"+ builder);
     }
 }

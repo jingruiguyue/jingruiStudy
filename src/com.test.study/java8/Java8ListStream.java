@@ -23,10 +23,7 @@ public class Java8ListStream {
         stringCollection
                 .stream()
                 .filter((s) -> {
-                    if(s.equals("bbb2")){
-                        return true;
-                    }
-                    return false;
+                    return s.equals("bbb2");
                 })
                 .forEach(System.out::println);
         stringCollection.stream().sorted().filter((a) -> a.startsWith("a")).forEach(System.out :: println);
