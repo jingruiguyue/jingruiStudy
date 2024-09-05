@@ -1,0 +1,32 @@
+
+
+日语版：
+
+私は徐淨睿（ショ セイズイ、Sho Seizui）と申します（ともうします、to mōshimasu）。
+仕事に就いてから12年が経ち（しごとに ついてから 12ねんが たち、shigoto ni tsuite kara 12 nen ga tachi）、主にJavaソフトウェアの開発を行っています（おもに Java ソフトウェアの かいはつを おこなっています、omoni Java sofutowea no kaihatsu o okonatteimasu）。
+使用するオペレーティングシステムは（しようする オペレーティング システムは、shiyō suru opereetingu shisutemu wa）、Windows（ウィンドウズ、Uindouzu）、macOS（マックオーエス、Makku Oesu）、Linux（リナックス、Rinakkusu）です（です、desu）。
+
+よく使う開発ツールには（よく つかう かいはつ ツールには、yoku tsukau kaihatsu tsūru ni wa）、IDEA（アイディーイーエー、Aidee Eea）やEclipse（エクリプス、Ekuripusu）があります（があります、arimasu）。
+主にJava言語を使用していますが（おもに Java げんごを しようしていますが、omoni Java gengo o shiyō shiteimasu ga）、Scala（スカーラ、Sukāra）、Go（ゴー、Gō）、Python（パイソン、Paison）の基礎文法も習得しており（の きそ ぶんぽうも しゅうとくしており、no kiso bunpō mo shūtoku shiteori）、いくつかの開発経験もあります（いくつかの かいはつ けいけんも あります、ikutsuka no kaihatsu keiken mo arimasu）。
+
+使用する技術フレームワークには（しようする ぎじゅつ フレームワークには、shiyō suru gijutsu furēmuwāku ni wa）、Spring（スプリング、Supuringu）、SpringMVC（スプリングエムブイシー、Supuringu Emubui Shī）、Spring Boot（スプリングブート、Supuringu Būto）があり（があり、ga ari）、関係型データベースでは（かんけいがた データベースでは、kankei-gata dētabēsu de wa）SQL Server（エスキューエル サーバー、Esukyūeru Sābā）、MySQL（マイエスキューエル、Mai Esukyūeru）、Oracle（オラクル、Orakuru）を使用しています（を しようしています、o shiyō shiteimasu）。
+また（また、mata）、キャッシュデータベースとしてRedis（レディス、Redisu）を使った経験があり（を つかった けいけんが あり、o tsukatta keiken ga ari）、ミドルウェアとしてはKafka（カフカ、Kafuka）やMycat（マイキャット、Maikyatto）も扱ったことがあります（も あつかったことが あります、mo atsukatta koto ga arimasu）。
+大データについても（だいデータについても、dai dēta ni tsuite mo）、いくつか学んで理解しています（いくつか まなんで りかいしています、ikutsuka manande rikai shiteimasu）。
+
+以上が私の自己紹介です（いじょうが わたしの じこしょうかいです、ijō ga watashi no jikoshōkai desu）。
+ありがとうございます（ありがとうございます、arigatou gozaimasu）。
+
+英语版：
+My name is Xu Jingrui. I have been working for 12 years,
+primarily engaged in Java software development.
+The operating systems I commonly use are Windows, macOS, and Linux.
+
+The development tools I frequently use include IDEA and Eclipse.
+I mainly use Java for development,
+but I also have a basic understanding of Scala, Go, and Python,
+with some experience in these languages.
+
+The technology frameworks I commonly use are Spring, SpringMVC, and Spring Boot.
+For relational databases, I am familiar with SQL Server, MySQL, and Oracle. I have experience with Redis for caching databases and have worked with middleware such as Kafka and Mycat. I also have some knowledge and understanding of big data.
+
+That concludes my personal introduction. Thank you.
