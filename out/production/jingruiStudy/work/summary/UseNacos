@@ -1,0 +1,3 @@
+很重要的一个坑，那就是在nacos创建的文件需要带后缀儿名，
+yaml格式的如：user-dev.yaml
+properties格式的如：user-dev.properties

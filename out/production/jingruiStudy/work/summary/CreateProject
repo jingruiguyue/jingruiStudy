@@ -1,0 +1,4 @@
+1.创建一个普通的空项目
+2.创建maven项目，作为parent项目
+3.创建module,可以根据职能来划分
+4.创建springboot web module,用来做启动类
