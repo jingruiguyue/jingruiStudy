@@ -1,0 +1,14 @@
+我参加工作已经12年了，主要从事java软件开发工作，我常用的操作系统是Windows，macOS，Linux；
+常用的开发工具有IDEA，eclipse; 常用的开发语言是java语言，还掌握Scala、Go、Python语言的基础语法，也有部分的开发使用经验。
+常用的技术框架是Spring,SpringMVC,Springboot，常用的关系型数据库有Sqlserver,Mysql,Oracle,缓存数据库用过redis，中间件用过kafka，mycat，对大数据也有一些学习和了解，以上就是我的个人介绍，谢谢。
+
+我叫徐净睿，今年38岁，出生在中国、贵州省遵义市，参加工作已经12年了，主要从事互联网开发工作；
+常用的开发语言是java；
+常用的操作系统是Windows，mocOS，Linux；
+常用的开发工具的是IntelliJ IDEA，Eclipse;
+常用的技术框架是Spring，SpringMVC, Springboot等；
+常用的关系型数据库有Mysql,Oracle,Sqlserver;
+常用的缓存技术主要用的redis;
+常用的消息队列主要用的kafka;
+学习和了解过hadoop，spark；
+以上就是我的个人介绍。
