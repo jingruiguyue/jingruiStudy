@@ -1,0 +1,8 @@
+1213:
+Yesterday was mainly focused on bug fixes and the UAT release,
+as well as understanding and designing the 0.8 requirements.
+Today, the focus is on correcting the interface documentation for the 0.8 requirements,
+reviewing the interfaces with the front-end team, and then starting the development.
+昨天主要是bug修复和uat发版，0.8需求的理解和设计，
+今天主要是0.8需求的接口文档修正和前端对一遍接口，然后着手开发。
+
