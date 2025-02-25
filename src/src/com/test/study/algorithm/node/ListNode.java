@@ -55,7 +55,7 @@ public class ListNode {
             currentNode = currentNode.getNext();
         }
 
-        ListNode res = changeListNode(head);
+        ListNode res = thirdChange(head);
 
         //反转后打印链表
         while(res != null){
@@ -75,4 +75,38 @@ public class ListNode {
         }
         return pre;
     }
+
+
+
+
+    public static ListNode changeLNode(ListNode head){
+        ListNode current = head, pre = null;
+        while(current != null){
+            ListNode nextNode = current.next;
+            current.next = pre;
+            pre = current;
+            current = nextNode;
+        }
+        return pre;
+    }
+
+    public static ListNode thirdChange(ListNode head){
+        ListNode change = null;
+        while(head != null){
+            ListNode next = head.next;
+            head.next = change;
+            change = head;
+            head = next;
+        }
+        return change;
+    }
+
+
+
+
+
+
+
+
+
 }
