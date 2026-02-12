@@ -43,12 +43,25 @@ public class CommonAlgorithm {
 	{
 		int sum = countSum(info);
 		List<Integer> list = new ArrayList<Integer>();
-		countRedBall(sum,info.getOneRed(),list);
-		countRedBall(sum,info.getTwoRed(),list);
-		countRedBall(sum,info.getThreeRed(),list);
-		countRedBall(sum,info.getFourRed(),list);
-		countRedBall(sum,info.getFiveRed(),list);
-		countRedBall(sum,info.getSixRed(),list);
+		int one = (sum-info.getOneRed())/info.getOneRed()%10;
+		list.add(one);
+		System.out.println("第一组尾数推荐:"+ one);
+		int two = (sum-info.getTwoRed())/info.getTwoRed()%10;
+		list.add(two);
+		System.out.println("第二组尾数推荐:"+ two);
+		int three = (sum-info.getThreeRed())/info.getThreeRed()%10;
+		list.add(three);
+		System.out.println("第三组尾数推荐:"+ three);
+		int four = (sum-info.getFourRed())/info.getFourRed()%10;
+		list.add(four);
+		System.out.println("第四组尾数推荐:"+ four);
+		int five = (sum-info.getFiveRed())/info.getFiveRed()%10;
+		list.add(five);
+		System.out.println("第五组尾数推荐:"+ five);
+		int six = (sum-info.getSixRed())/info.getSixRed()%10;
+		list.add(six);
+		System.out.println("第六组尾数推荐:"+ six);
+
 		return list;
 		
 	}
@@ -61,8 +74,9 @@ public class CommonAlgorithm {
 	 */
 	private static List<Integer> countRedBall(int sum,int redBall,List<Integer> listRes)
 	{
-		
+
 		int temp = (sum-redBall)/redBall%10;
+		System.out.println("计算结果："+temp);
 		//int negateExact =  Math.negateExact(temp);
 		listRes.add(temp);
 //		int res1 = temp+10;
